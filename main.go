@@ -76,7 +76,7 @@ func main() {
 			return
 		}
 
-		log.Printf("successfully proccessed image")
+		log.Printf("successfully processed image")
 		fmt.Fprint(w, chatCompletion.Choices[0].Message.Content)
 	})
 
